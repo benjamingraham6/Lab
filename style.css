@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
 }
 
 .header{
@@ -27,5 +30,27 @@ h1{
     min-height: 100vh;
     width: 100%;
     background-position: center;
-    position: relative;
+    /* position: relative; */
+}
+
+.header nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.816);
+}
+
+.header ul li{
+    display: inline-block;
+    padding: 0 0.4rem;
+}
+
+.header ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.header ul li a:hover{
+    color: rgb(161, 161, 161);
 }
