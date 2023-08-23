@@ -48,9 +48,5 @@ h1{
 .header ul li a{
     text-decoration: none;
     color: white;
-    font-size: 0.9rem;
-}
-
-.header ul li a:hover{
-    color: rgb(161, 161, 161);
+    font-size: 0.rem;
 }
