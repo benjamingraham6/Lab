@@ -74,9 +74,15 @@
 }
 
 .text-box a{
+    outline: 1px solid white;
+    padding: 0.6rem;
+    border-radius: 0.6rem;
+    text-decoration: none;
     color: rgba(255, 255, 255, 0.657);
+    transition: 0.3s ease-in-out;
 }
 
 .text-box a:hover{
     color: white;
+    background-color: rgba(40, 230, 255, 0.715);
 }
