@@ -1,57 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../style.css" />
-  </head>
-
-  <body>
-    <h1 align="center">Table</h1>
-    <table border="1" align="center" cellspacing="0" cellpadding="10">
-      <tr>
-        <th>SN</th>
-        <th>Name</th>
-        <th>Address</th>
-        <th>Zip Code</th>
-        <th colspan="2">City</th>
-        <!-- <th>State</th> -->
-        <th>Mobile</th>
-      </tr>
-      <tr>
-        <td>2</td>
-        <td rowspan="2">Milan</td>
-        <td>Kapasi</td>
-        <td>2232</td>
-        <td colspan="2" align="center">Ghorahi</td>
-        <td rowspan="3">9847878778</td>
-      </tr>
-      <tr>
-        <td>1</td>
-        <!-- <td>Manish</td> -->
-        <td>Kapasi</td>
-        <td>2232</td>
-        <td>Ghorahi</td>
-        <td>Lumbini</td>
-        <!-- <td>9847878778</td> -->
-      </tr>
-      <tr>
-        <td>1</td>
-        <td>Manish</td>
-        <td colspan="4" align="center">Kapasi</td>
-        <!-- <td>9847878778</td> -->
-      </tr>
-    </table>
-
-    <p class="test">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores culpa a
-      itaque suscipit? Laboriosam nostrum labore, quibusdam explicabo,
-      cupiditate aliquam sequi voluptas beatae mollitia consequuntur ipsam
-      veritatis nulla. Tenetur tempora aperiam dolore.
-    </p>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../font/css/all.min.css">
+  
+</head>
+<body>
     <section class="header">
-      <h1>This is h1</h1>
+        <nav>
+            <a href="index.html"><img src="../image/Picture1.png" alt="" height="50" width="200"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa-regular fa-circle-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">ABOUT US</a></li>
+                    <li><a href="">CARRERS</a></li>
+                    <li><a href="">NEWS & EVENT</a></li>
+                    <li><a href="">ACADEMIS</a></li>
+                    <li><a href="">TEAM MEMBER</a></li>
+                </ul>
+            </div> 
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Tribhuvan University</h1>
+            <p>The Tribhuvan University is lead program career in IT field.
+                Software has become the backbone of our 
+            economy. <br>From large enterprises to small businesses,</p>
+            <a href="#" class="hero-btn">Visit us to More Know</a>
+        </div>
     </section>
-  </body>
+    <script src="../js/main.js"></script>
+</body>
 </html>
