@@ -114,3 +114,38 @@ nav .fa-regular
         cursor: pointer;
     }
 }
+
+.programs{
+    width: 90%;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.programs h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.programs p{
+    font-size: 17px;
+    font-weight: 300;
+    color: #0a2241;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.rows{
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.programs-col{
+    flex-basis: 31%;
+    background-color: #eae6e6;
+    margin-bottom: 5%;
+    border-radius: 7px;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
