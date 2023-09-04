@@ -149,3 +149,25 @@ nav .fa-regular
     padding: 20px 12px;
     box-sizing: border-box;
 }
+
+@media(max-width:700px)
+{
+    .rows{
+        flex-direction: column;
+    }
+}
+
+.programs-title{
+    display: flex;
+    padding: 5px 20px;
+    line-height: 30px;
+}
+
+.programs-title .icon{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.programs-title h3{
+    padding: 0 14px;
+}
