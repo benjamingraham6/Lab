@@ -171,3 +171,7 @@ nav .fa-regular
 .programs-title h3{
     padding: 0 14px;
 }
+
+.programs-col:hover{
+    background-color: #e0af7f;
+}
