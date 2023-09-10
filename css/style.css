@@ -148,6 +148,7 @@ nav .fa-regular
     border-radius: 7px;
     padding: 20px 12px;
     box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.27) 0 8px 24px;
 }
 
 @media(max-width:700px)
@@ -175,3 +176,24 @@ nav .fa-regular
 .programs-col:hover{
     background-color: #e0af7f;
 }
+
+.inter{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.inter-col{
+    flex-basis: 21%;
+    border-radius: 10%;
+    margin-bottom: 30px;
+    /* position: relative; */
+    /* overflow: hidden; */
+    height: 80%;
+}
+
+.inter-col img{
+    width: 100%;
+}
+
