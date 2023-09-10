@@ -234,3 +234,9 @@ nav .fa-regular
     bottom: 50%;
     opacity: 1;
 }
+
+@media(max-width:700px){
+    .rows{
+        flex-direction: column;
+    }
+}
