@@ -188,12 +188,49 @@ nav .fa-regular
     flex-basis: 21%;
     border-radius: 10%;
     margin-bottom: 30px;
-    /* position: relative; */
+    position: relative;
     /* overflow: hidden; */
     height: 80%;
 }
 
 .inter-col img{
     width: 100%;
+    /* height: 10%; */
+    border-radius: 1.5rem;
 }
 
+
+.inter-col:first-child img{
+    height: 420px;
+}
+
+.text-layer{
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    top: 0;
+    left: 0;
+    position: absolute;
+    transition: 0.4s ease-in-out;
+}
+
+.text-layer:hover{
+    background-color:rgba(6,32,80,0.7);
+    border-radius: 1.5rem;
+}
+
+.text-layer h3{
+    width: 100%;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 900;
+    bottom: 0;
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.text-layer:hover h3{
+    bottom: 50%;
+    opacity: 1;
+}
