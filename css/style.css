@@ -240,3 +240,38 @@ nav .fa-regular
         flex-direction: column;
     }
 }
+
+.cards{
+    width: 90%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.cards h2{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.cards-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    background-color: #0a2241;
+    color: #fff;
+}
+
+.cards-col img{
+    width: 100%;
+}
+
+.cards-col h3{
+    padding: 3px 12px;
+}
+
+.cards-col p{
+    padding: 10px 12px;
+    font-size: 14px;
+    text-align: justify;
+}
